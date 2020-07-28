@@ -6,9 +6,9 @@
 
 1. clone this repo `git clone https://github.com/m-abdelwahab/react-auth0-demo/`
 2. run `yarn install`
-3. create a .env file in the root of the project with the following:
-    1. REACT_APP_AUTH0_DOMAIN = 
-    2. REACT_APP_AUTH0_CLIENT_ID = 
-4. go to https://auth0.com, create an account and then a new React Application
+3. go to https://auth0.com, create an account and then a new React Application
+4. from the settings tab, find the domain and client ID and create a .env file in the root of the project:
+    1. REACT_APP_AUTH0_DOMAIN = 'Your Domain'
+    2. REACT_APP_AUTH0_CLIENT_ID = 'Your Client ID'
 5. set "Allowed Callback URLs", "Allowed Logout URLs" and "Allowed Web Origins" to http://localhost:3000
 6. run `yarn start`
