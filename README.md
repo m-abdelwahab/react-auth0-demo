@@ -4,7 +4,7 @@
 
 # Project Setup
 
-1. clone this repo `git clone https://github.com/m-abdelwahab/react-auth0-demo/`
+1. clone this repo `git clone https://github.com/m-abdelwahab/react-auth0-demo.git`
 2. run `yarn install`
 3. go to https://auth0.com, create an account and then a new React Application
 4. from the settings tab, find the domain and client ID and create a .env file in the root of the project:
