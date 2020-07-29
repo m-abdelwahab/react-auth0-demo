@@ -25,8 +25,7 @@ const Hero = () => {
             className="capitalize mt-1 text-4xl tracking-tight leading-10 font-extrabold
         text-gray-900 sm:leading-none sm:text-6xl lg:text-5xl xl:text-6xl"
           >
-            <span>Counting Has never</span>
-            <br className="hidden md:inline" />
+            <span>Counting Has never</span> <br className="hidden md:inline" />
             <span>been this easy</span>
           </h1>
 
@@ -54,7 +53,7 @@ const Hero = () => {
           bg-transparent px-6 py-4 text-xl leading-6 font-semibold font-display
           text-black hover:border-indigo-500 border-2  
           transition ease-in-out duration-150 "
-              href="http://localhost:3000/#pricing"
+              href="http://localhost:3000/#features"
             >
               Learn More
             </a>
