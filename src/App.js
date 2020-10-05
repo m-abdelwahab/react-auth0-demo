@@ -14,10 +14,10 @@ function App() {
     <div>
       <div>
         <Switch>
-          {!isAuthenticated ? (
-            <Route exact path="/" component={Landing} />
-          ) : (
+          {isAuthenticated ? (
             <Route exact path="/" component={Home} />
+          ) : (
+            <Route exact path="/" component={Landing} />
           )}
           <PrivateRoute path="/profile" component={Profile} />
         </Switch>
